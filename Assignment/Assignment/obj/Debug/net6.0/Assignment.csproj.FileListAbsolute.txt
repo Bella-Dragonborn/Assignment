@@ -1,0 +1,15 @@
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.AssemblyReference.cache
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfoInputs.cache
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.AssemblyInfo.cs
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.csproj.CoreCompileInputs.cache
+D:\Dasha\Visual studio\Files\Assignment\Assignment\bin\Debug\net6.0\Assignment.exe
+D:\Dasha\Visual studio\Files\Assignment\Assignment\bin\Debug\net6.0\Assignment.deps.json
+D:\Dasha\Visual studio\Files\Assignment\Assignment\bin\Debug\net6.0\Assignment.runtimeconfig.json
+D:\Dasha\Visual studio\Files\Assignment\Assignment\bin\Debug\net6.0\Assignment.dll
+D:\Dasha\Visual studio\Files\Assignment\Assignment\bin\Debug\net6.0\Assignment.pdb
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.dll
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\refint\Assignment.dll
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.pdb
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\Assignment.genruntimeconfig.cache
+D:\Dasha\Visual studio\Files\Assignment\Assignment\obj\Debug\net6.0\ref\Assignment.dll
