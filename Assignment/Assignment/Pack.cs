@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
@@ -86,27 +86,33 @@ namespace CMP1903M_A01_2223
             }
             if (typeOfShuffle == 2)
             {
-                List<Card> tempDeck = new List<Card>();
-                for (int i = 0; i < pack.Count; i++)
+                List<Card> tempDeck = new List<Card>(pack);
+                List<Card> right = new List<Card>();
+                List<Card> left = new List<Card>();
+                int half = tempDeck.Count / 2;
+                for (int j = 0; j < half; j++)
                 {
-                    List<Card> right = new List<Card>(pack.Count / 2);
-                    List<Card> left = new List<Card>(pack.Count / 2);
+                    left.Add(tempDeck[0]);
+                    tempDeck.Remove(tempDeck[0]);
+                }
+                right = tempDeck;
+                tempDeck = new List<Card>();
+
                     while (left.Count > 0 && right.Count > 0)
                     {
-                        if (random.NextDouble() >= (left.Count / right.Count) / 2)
+                        if (random.NextDouble() >= (0.5f))
                         {
                             tempDeck.Add(right.First());
                             right.RemoveAt(0);
                         }
                         else
                         {
-                            tempDeck.Add(right.First());
+                            tempDeck.Add(left.First());
                             left.RemoveAt(0);
                         }
                     }
                     if (left.Count > 0) tempDeck.AddRange(left);
                     if (right.Count > 0) tempDeck.AddRange(right);
-                }
                 pack = tempDeck;
                 return true;
             }
